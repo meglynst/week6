@@ -1,0 +1,198 @@
+body{
+	margin-top:-17px;
+    background-color:#FFFFFF;
+    font-family:"Advent Pro";
+    color:#000000;
+}
+
+/*HEADER*/
+a.skip-content{
+	background-color:#4B0082; 
+	padding:10px;
+	text-decoration: none;
+	position:relative;
+    top:-80px;
+    transition: top ease-in 2s;
+}
+a.skip-content:focus{
+	background:#4B0082;
+	color:#FFFFFF;
+	top: 80px;
+	border: 1px #808080;
+}
+
+header{
+	background-color:#4B0082;
+	color:#FFFFFF;
+	font-family:"Advent Pro";
+	background-image: url("../image/header_background.jpg");
+}
+li{
+	display:inline;
+}
+header nav{
+	box-sizing: border-box;
+	border:2px solid #808080;
+}
+header nav a:hover{
+  background-color:#7B68EE;
+}
+.header-home{
+	height: 15vw;
+	display:block;
+	text-align:center;
+}
+.header-home h1{
+/*	background-color: yellow;*/
+	height:70%;
+	font-size: 4em;
+	margin-left: 10%;
+	display:flex;
+	align-items: center; 
+}
+.header-home nav{
+	width:100%;
+	height:30%;
+/*	background-color: pink;*/
+	text-align:center;
+	display:flex;
+	align-items:center; 
+	justify-content: center;
+}
+.header-not-home{
+	position:fixed;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	height:10vh;
+}
+.nav-not-home a{
+	height:100%;
+/*	background-color: red;*/
+}
+.nav-not-home{
+/*	width:80%;*/
+	height:100%;
+	display:flex;
+	justify-content: space-around;
+	align-items:center;
+}
+/*.nav-not-home li{
+	background-color: red;
+
+}*/
+header a{
+	color:#FFFFFF;
+	text-decoration: none; /*gets rid of line under links*/
+	border:5px #000000;
+	margin:10px;
+}
+/*nav .nav-home{
+	align-self:flex-end;
+	background-color: pink;
+}*/
+.current{
+	text-transform: uppercase;
+	background-color:#FFFFFF;
+	color:#000000;
+}
+
+
+/*MAIN*/
+main{
+	min-height:80vh;
+}
+.list-content{
+/*	background-color:red;*/
+	margin: 50px 70px 100px 70px;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	flex-wrap: wrap;
+}
+main h1{
+	text-align: center;
+	margin-top: 50px;
+	padding:5%;
+	font-size:3.5em; 
+}
+
+/*REVIEW*/
+.review-info-box{
+	background-color: #FFFACD;
+	color:#000000;
+	box-sizing:border-box;
+	width:225px;
+	display:inline-block;
+	height: 325px;
+	margin-left:75px;
+	border: 3px solid #000000;
+	padding: 15px;
+}
+.review-info-box img{
+	height:200px;
+	width:200px;
+}
+.review-info-box li{
+	display:block;
+}
+.review-content{
+	width:750px;
+	display:inline-block;
+	margin:75px;
+}
+
+/*FOOTER*/
+footer{
+/*	height:15vw;*/
+	padding:5px;
+	display:block;
+	background-color:#4B0082;
+	text-align:center;
+	color:#FFFFFF;
+	background-image: url("../image/header_background.jpg");
+}
+footer a{
+	color:#FFFFFF;
+	text-decoration:none
+}
+footer nav a:hover{
+  	background-color:#7B68EE;
+}
+.top-symb{
+/*	background-color: red;*/
+	height:40%;
+	display:flex;
+	justify-content:flex-end;
+	margin-right: 10px;
+	margin-top:5px;
+	font-size:3em;
+	color:#7B68EE;
+}
+.footer-info{
+	display:flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+}
+.footer-info a:hover{
+	background-color:#7B68EE;
+}
+.footer-nav{
+	padding:5px;
+	height:70px;
+	color:#FFFFFF;
+/*	background-color: pink;*/
+	display:flex;
+	align-items:center; 
+	justify-content: flex-start;
+}
+.footer-nav li{
+	margin-right:10px;
+	margin-left:10px;
+}
+.copyright{
+/*	background-color: red;*/
+	display:flex;
+	align-items: flex-end;
+}
+/*MOBILE*/
